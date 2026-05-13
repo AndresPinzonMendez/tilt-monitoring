@@ -24,6 +24,7 @@
 				left: 0;
 			}
 		</style>
+		<script type="module" crossorigin src="./assets/index-DHG8POJ1.js"></script>
 	</head>
 	<body>
 
@@ -31,22 +32,5 @@
 		<div id="container-top-right"></div>
 		<div id="container-top-left"></div>
 
-		<script type="module">
-
-			import {initPoleModel, setRenderParams} from "./pole-model.js";
-
-			initPoleModel(() => {
-				setRenderParams({
-					abeewaySensor: true,
-					localAxes: true,
-					tiltAngles: true,
-					sphericalAngles: true,
-					theta: 32,
-					phi: 68,
-					psi: 15,
-				})
-			})
-			
-		</script>
 	</body>
 </html>
